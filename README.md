@@ -56,28 +56,10 @@
 
 ## Usage
 
-### Two Versions Available
-
-**Recommended: Simple Version (RSS-based)**
-```bash
-python3 newsynth_simple.py
 ```
-
 **Advanced Version (Web scraping)**
 ```bash
 python3 newsynth.py
-```
-
-The simple version uses RSS feeds from major news sources for more reliable results, while the advanced version performs web scraping with search engines.
-
-### Quick Test
-```bash
-python3 test_setup.py
-```
-
-### Demo
-```bash
-python3 demo.py
 ```
 
 ### Interactive Usage
@@ -123,9 +105,6 @@ shape the industry's future direction...
 ```
 Newsynth/
 ├── newsynth.py          # Main application (web scraping)
-├── newsynth_simple.py   # Simple version (RSS feeds) - Recommended
-├── demo.py             # Demo script with sample topics
-├── test_setup.py       # Setup verification script
 ├── requirements.txt    # Python dependencies
 ├── setup.sh           # Automated setup script
 ├── README.md          # This file
